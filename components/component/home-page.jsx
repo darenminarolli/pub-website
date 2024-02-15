@@ -10,28 +10,27 @@ export function HomePage() {
     (<div className="flex flex-col min-h-[100dvh]">
       <header className="px-4 lg:px-6 py-4 lg:py-8 flex items-center">
         <Link className="flex items-center gap-2" href="#">
-          <IceCreamIcon className="h-6 w-6" />
           <span className="font-semibold">Living Room Antik</span>
         </Link>
         <nav className="ml-auto hidden lg:flex gap-4 sm:gap-6">
           <Link
             className="text-sm font-medium hover:underline underline-offset-4"
             href="#">
-            Menu
+            Home
           </Link>
           <Link
             className="text-sm font-medium hover:underline underline-offset-4"
-            href="#">
+            href="#events">
             Events
           </Link>
           <Link
             className="text-sm font-medium hover:underline underline-offset-4"
-            href="#">
-            Reservations
+            href="#menu">
+            Menu
           </Link>
           <Link
             className="text-sm font-medium hover:underline underline-offset-4"
-            href="#">
+            href="#contact">
             Contact
           </Link>
         </nav>
@@ -47,9 +46,9 @@ export function HomePage() {
             <img
               alt="Image"
               className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center lg:order-last"
-              height="310"
-              src="/placeholder.svg"
-              width="550" />
+              height="400"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8GHGtJAVYSmiAeJURqgLn0gUcgB81Qh53rB6_yrl9vpnyJb3lOYrcc_Q7I4xyFhXw3n8&usqp=CAU"
+              width="600" />
             <div className="flex flex-col justify-center space-y-2">
               <div className="space-y-2">
                 <h1
@@ -65,7 +64,7 @@ export function HomePage() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 border-t">
+        <section className="w-full py-12 md:py-24 lg:py-32 ">
           <div
             className="container grid items-center gap-4 px-4 text-center md:px-6 lg:gap-10">
             <div className="space-y-3">
@@ -82,30 +81,30 @@ export function HomePage() {
                 <img
                   alt="Image"
                   className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center"
-                  height="310"
+                  height="550"
                   src="/placeholder.svg"
-                  width="550" />
+                  width="310" />
               </div>
               <div className="mx-auto flex w-full items-center justify-center p-4 sm:p-8">
                 <img
                   alt="Image"
                   className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center"
-                  height="310"
+                  height="550 "
                   src="/placeholder.svg"
-                  width="550" />
+                  width="310" />
               </div>
               <div className="mx-auto flex w-full items-center justify-center p-4 sm:p-8">
-                <img
+              <img
                   alt="Image"
                   className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center"
-                  height="310"
+                  height="550"
                   src="/placeholder.svg"
-                  width="550" />
+                  width="310" />
               </div>
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
+        <section id="events" className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
           <div className="container grid items-center gap-4 px-4 text-center md:px-6">
             <div className="space-y-3">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Our Events</h2>
