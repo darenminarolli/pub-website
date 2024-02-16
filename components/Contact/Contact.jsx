@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <section id='contact' className="w-full py-12 md:py-24 lg:py-32 border-t">
+        <section id='contact' className="w-full py-12 md:py-24 lg:py-32 rounded-md border-t">
             <div className="w-full bg-gray-50 ">
                 <div className="container px-4 flex flex-col gap-4 md:px-6">
                     <div className="space-y-4">
@@ -25,9 +25,9 @@ const Contact = () => {
                             <div className="flex flex-col justify-center space-y-4">
                                 <p className="text-gray-500 dark:text-gray-400">
                                     For reservations or inquiries, call us at
-                                    <span className="font-semibold"> +1 123 456 7890 </span>
+                                    <span className="font-semibold"> +355 67 632 0588 </span>
                                     or email us at
-                                    <span className="font-semibold">info@pub.com</span>
+                                    <span className="font-semibold"> info@antik.com</span>
                                 </p>
                                 <p className="text-gray-500 dark:text-gray-400">
                                     <span className="font-semibold">Pub Name</span>
