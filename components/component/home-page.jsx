@@ -55,7 +55,7 @@ export function HomePage() {
                   alt="Image"
                   className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center"
                   height="550"
-                  src="/placeholder.svg"
+                  src="https://hips.hearstapps.com/hmg-prod/images/assortment-of-alcoholic-cocktails-on-a-bar-counter-royalty-free-image-1685722611.jpg"
                   width="310" />
               </div>
               <div className="mx-auto flex w-full items-center justify-center p-4 sm:p-8">
@@ -63,7 +63,7 @@ export function HomePage() {
                   alt="Image"
                   className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center"
                   height="550 "
-                  src="/placeholder.svg"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTbP4TYdvI898Sajb0rSS5ELZ43RJ9t7UbCw&usqp=CAU"
                   width="310" />
               </div>
               <div className="mx-auto flex w-full items-center justify-center p-4 sm:p-8">
@@ -71,7 +71,7 @@ export function HomePage() {
                   alt="Image"
                   className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center"
                   height="550"
-                  src="/placeholder.svg"
+                  src="https://rapidbarapp.com/wp-content/uploads/2023/10/Comment-creer-un-cocktail-signature-pour-mon-bar-.png"
                   width="310" />
               </div>
             </div>
