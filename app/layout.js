@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "The Living Room Antik",
-  description: "Best Pub in Tirana",
+  description: "Best Pub in Tirana ",
 };
 
 export default function RootLayout({ children }) {
