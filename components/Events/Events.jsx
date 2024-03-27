@@ -2,7 +2,7 @@ import React from 'react'
 
 const Events = () => {
   return (
-    <section id="events" className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 rounded-md dark:bg-gray-800">
+    <section id="events" className="w-full py-12 md:py-24 lg:py-32 bg-opacity-30 backdrop-blur-lg bg-gray-300 shadow-lg  border border-opacity-20 border-white rounded-md dark:bg-gray-800">
     <div className="container grid items-center gap-4 px-4 text-center md:px-6">
       <div className="space-y-3">
         <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Our Events</h2>

@@ -7,27 +7,29 @@ import Contact from "../Contact/Contact";
 import Events from "../Events/Events";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
-
+import { Capture } from "../../public/capture.png"
 export function HomePage() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
-     <Header/>
-      <main className="flex-1">
+      <Header />
+      <main className="flex-1 pt-10">
         <section className="w-full">
           <div
             className="container grid items-center gap-4 px-4 text-center lg:grid-cols-2 lg:gap-10 xl:px-6">
             <img
               alt="Image"
-              className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center lg:order-last"
-              height="400"
-              src="https://media.timeout.com/images/105989026/image.jpg"
-              width="600" />
+              className="mx-auto h-[450px] overflow-hidden  shadow-xl rounded-xl object-fit object-center lg:order-last"
+              src="https://lh3.googleusercontent.com/p/AF1QipOXKDTbqoQgj0i-vdfpF9sIBfVjx3O6nwkH5YwQ=s680-w680-h510"
+              width="400" />
             <div className="flex flex-col justify-center space-y-2">
+              <img src={Capture} alt="" />
               <div className="space-y-2">
-                <h1
-                  className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">
-                  Welcome to Antik
-                </h1>
+                {/* <TextEffect text='Welcome to Antik'/> */}
+                <h1 className="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-4 md:mb-6 font-serif">
+  Welcome to <span className="text-red-800">Living Room Antik!</span>
+</h1>
+
+
                 <p
                   className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                   A traditional Albanian pub with a warm and welcoming atmosphere. Serving classic ales, fine wines, and
@@ -48,40 +50,18 @@ export function HomePage() {
                 ale, a hearty meal, or a friendly chat, We got you covered.
               </p>
             </div>
-            <div
-              className="mx-auto grid max-w-5xl items-start gap-6 py-12 lg:grid-cols-3 lg:gap-12">
-              <div className="mx-auto flex w-full items-center justify-center p-4 sm:p-8">
-                <img
-                  alt="Image"
-                  className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center"
-                  height="550"
-                  src="https://hips.hearstapps.com/hmg-prod/images/assortment-of-alcoholic-cocktails-on-a-bar-counter-royalty-free-image-1685722611.jpg"
-                  width="310" />
-              </div>
-              <div className="mx-auto flex w-full items-center justify-center p-4 sm:p-8">
-                <img
-                  alt="Image"
-                  className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center"
-                  height="550 "
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTbP4TYdvI898Sajb0rSS5ELZ43RJ9t7UbCw&usqp=CAU"
-                  width="310" />
-              </div>
-              <div className="mx-auto flex w-full items-center justify-center p-4 sm:p-8">
-              <img
-                  alt="Image"
-                  className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center"
-                  height="550"
-                  src="https://rapidbarapp.com/wp-content/uploads/2023/10/Comment-creer-un-cocktail-signature-pour-mon-bar-.png"
-                  width="310" />
-              </div>
+            <div className="grid md:grid-cols-3 gap-4 place-items-center ">
+              <img className="hover-trigger rounded-xl shadow-xl h-[350px]" src="https://lh3.googleusercontent.com/p/AF1QipOs2YPlrKD-mt0QMxtWjt3E6FLHENkxPmI4Kw4M=s680-w680-h510" alt="img1" />
+              <img className="hover-trigger rounded-xl shadow-xl h-[350px]" src="https://lh3.googleusercontent.com/p/AF1QipOS0PDyvA9Q622Ywz2hqX2FqlAomdp0b4YWgkLO=s680-w680-h510" alt="" />
+              <img className="hover-trigger rounded-xl shadow-xl h-[350px]" src="https://lh3.googleusercontent.com/p/AF1QipOUtsfB2u2zECLy2ZMIfPm6IOtdbJfRr-gc3aRH=s680-w680-h510" alt="" />
             </div>
           </div>
         </section>
-        <Events/>
-        <Menu/>
-        <Contact/>
+        <Events />
+        <Menu />
+        <Contact />
       </main>
-     <Footer/>
+      <Footer />
     </div>
   );
 }
