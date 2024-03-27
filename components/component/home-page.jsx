@@ -21,7 +21,6 @@ export function HomePage() {
               src="https://lh3.googleusercontent.com/p/AF1QipOXKDTbqoQgj0i-vdfpF9sIBfVjx3O6nwkH5YwQ=s680-w680-h510"
               width="400" />
             <div className="flex flex-col justify-center space-y-2">
-              <img src={Capture} alt="" />
               <div className="space-y-2">
                 <h1 className="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-4 md:mb-6 font-serif">
                   Welcome to <span className="text-red-800">Living Room Antik!</span>
