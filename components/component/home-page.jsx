@@ -7,7 +7,6 @@ import Contact from "../Contact/Contact";
 import Events from "../Events/Events";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
-import { Capture } from "../../public/capture.png"
 export function HomePage() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
@@ -24,12 +23,9 @@ export function HomePage() {
             <div className="flex flex-col justify-center space-y-2">
               <img src={Capture} alt="" />
               <div className="space-y-2">
-                {/* <TextEffect text='Welcome to Antik'/> */}
                 <h1 className="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-4 md:mb-6 font-serif">
-  Welcome to <span className="text-red-800">Living Room Antik!</span>
-</h1>
-
-
+                  Welcome to <span className="text-red-800">Living Room Antik!</span>
+                </h1>
                 <p
                   className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                   A traditional Albanian pub with a warm and welcoming atmosphere. Serving classic ales, fine wines, and
