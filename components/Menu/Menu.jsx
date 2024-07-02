@@ -33,6 +33,12 @@ const Menu = () => {
                         </div>
                         <hr className="h-px border-0 border-t border-slate-300" />
                         <div className="flex flex-col space-y-2">
+                            <h2 className="font-semibold">Whiskey</h2>
+                            <p className="text-sm text-gray-500 ">Proper Twelve, Jack Daniels, johnny black etc ...</p>
+                            <p className="text-2xl font-bold">450-1200 LEK</p>
+                        </div>
+                        <hr className="h-px border-0 border-t border-slate-300" />
+                        <div className="flex flex-col space-y-2">
                             <h2 className="font-semibold">Shots</h2>
                             <p className="text-sm text-gray-500 ">Tequila, Vodka, Jagger Boom...</p>
                             <p className="text-2xl font-bold">250-400 LEK</p>
