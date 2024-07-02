@@ -7,6 +7,7 @@ import Contact from "../Contact/Contact";
 import Events from "../Events/Events";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
+import Photos from "../Photos/Photos";
 export function HomePage() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
@@ -26,7 +27,7 @@ export function HomePage() {
                   Welcome to <span className="text-red-800">Living Room Antik!</span>
                 </h1>
                 <p
-                  className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                  className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
                   A traditional Albanian pub with a warm and welcoming atmosphere. Serving classic ales, fine wines, and
                   delicious pub grub.
                 </p>
@@ -40,7 +41,7 @@ export function HomePage() {
             <div className="space-y-3">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">The Antik Experience</h2>
               <p
-                className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
                 Experience the authentic charm of a traditional Albanian pub. Whether you're looking for a pint of real
                 ale, a hearty meal, or a friendly chat, We got you covered.
               </p>
@@ -54,6 +55,7 @@ export function HomePage() {
         </section>
         <Events />
         <Menu />
+        <Photos/>
         <Contact />
       </main>
       <Footer />

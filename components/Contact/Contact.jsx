@@ -8,7 +8,7 @@ const Contact = () => {
                     <div className="space-y-4">
                         <div className="space-y-4">
                             <h3 className="text-3xl font-bold tracking-tighter sm:text-4xl">Contact Us</h3>
-                            <p className="text-gray-500 md:text-xl dark:text-gray-400">
+                            <p className="text-gray-500 md:text-xl ">
                                 Have questions? Reach out to us and we'll get back to you as soon as possible.
                             </p>
                         </div>
@@ -23,13 +23,13 @@ const Contact = () => {
                                 referrerpolicy="no-referrer-when-downgrade">
                             </iframe>
                             <div className="flex flex-col justify-center space-y-4">
-                                <p className="text-gray-500 dark:text-gray-400">
+                                <p className="text-gray-500 ">
                                     For reservations or inquiries, call us at
                                     <span className="font-semibold"> +355 67 632 0588 </span>
                                     or email us at
                                     <span className="font-semibold"> info@antik.com</span>
                                 </p>
-                                <p className="text-gray-500 dark:text-gray-400">
+                                <p className="text-gray-500 ">
                                     <span className="font-semibold">Pub Name</span>
                                     <br />
                                     Living Room Antik
@@ -50,7 +50,7 @@ const Contact = () => {
                                     </div>
                                     <div className="flex flex-col space-y-1">
                                         <p className="text-sm font-medium">Visit us</p>
-                                        <p className="text-sm text-gray-500 dark:text-gray-400">Rruga Vaso Pasha, Tiranë</p>
+                                        <p className="text-sm text-gray-500 ">Rruga Vaso Pasha, Tiranë</p>
                                     </div>
                                 </div>
                                 <div className="flex gap-4">
@@ -69,7 +69,7 @@ const Contact = () => {
                                     </div>
                                     <div className="flex flex-col space-y-1">
                                         <p className="text-sm font-medium">Follow us</p>
-                                        <p className="text-sm text-gray-500 dark:text-gray-400">
+                                        <p className="text-sm text-gray-500 ">
                                             <a href="#">@living_room_antik</a>
                                         </p>
                                     </div>
